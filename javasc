@@ -1,0 +1,21 @@
+function mayorNumero (a, b) {
+    if (typeof(a) === "number") {
+        console.log("si es numero", a)
+    }else{
+
+        console.log("a, no es un numero")
+    }
+
+    if (typeof(b) === "number") {
+        console.log("si es numero", b)
+    }else{
+        console.log("b, no es un numero")
+    }
+    console.log("paso validaciones")
+
+}
+
+mayorNumero(5, 6)
+
+mayorNumero(9,10)
+
